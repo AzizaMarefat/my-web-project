@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stel.css">
+    <script src="https://kit.fontawesome.com/0e82d3ade2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#tours">Tours</a></li>
+         <li><a href="#store">Store</a></li>
+         <li><a href="sign.html">Sign up</a></li>
+
+
+        </ul>
+    </nav>
+  
+    <section id="tours">
+        <h4>LATEST TOUR</h4>
+        <div class="Tour">
+            <video src="v3.mp4" loop autoplay muted playsinline width="300px"></video>
+            <video src="vi1.mp4" loop autoplay muted playsinline width="300px"></video>
+            <img src="3.jpg" loop autoplay muted playsinline width="300px">
+        </div>
+
+        <p id="T">TOUR DATES</p>
+        <div class="tour-dates">
+            <div class="tour-date">
+                <p><strong>May 5, 2025</strong> – New York, NY – Madison Square Garden</p>
+                <a href="https://www.ticketlink.com/newyork" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>June 12, 2025</strong> – Los Angeles, CA – The Forum</p>
+                <a href="https://www.ticketlink.com/losangeles" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>July 1, 2025</strong> – Chicago, IL – United Center</p>
+                <a href="https://www.ticketlink.com/chicago" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>August 15, 2025</strong> – Miami, FL – Kaseya Center</p>
+                <a href="https://www.ticketlink.com/miami" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>September 3, 2025</strong> – Dallas, TX – American Airlines Center</p>
+                <a href="https://www.ticketlink.com/dallas" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>September 20, 2025</strong> – Seattle, WA – Climate Pledge Arena</p>
+                <a href="https://www.ticketlink.com/seattle" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>October 10, 2025</strong> – Atlanta, GA – State Farm Arena</p>
+                <a href="https://www.ticketlink.com/atlanta" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>November 1, 2025</strong> – Boston, MA – TD Garden</p>
+                <a href="https://www.ticketlink.com/boston" class="buy-tickets">Buy Tickets</a>
+            </div>
+            <div class="tour-date">
+                <p><strong>November 20, 2025</strong> – Las Vegas, NV – T-Mobile Arena</p>
+                <a href="https://www.ticketlink.com/lasvegas" class="buy-tickets">Buy Tickets</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="home">
+        <h3>Stellara <i class="fa-solid fa-star-half-stroke"></i></h3>
+        <div class="social-accounts">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-spotify"></i>
+            <i class="fa-brands fa-apple"></i>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('.Tour video').forEach(video => {
+            video.addEventListener('click', function () {
+                this.muted = !this.muted;
+            });
+        });
+    </script>
+
+    <h6>Digital Tracklist</h6>
+    <div class="songs">
+        <pre>
+            1. Stella
+
+            2. 1980 Fashion
+
+            3. Dream
+
+            4. Rainbow
+
+            5. You Are the Problem
+
+            6. Still Hate
+
+            7. Golden Proportion
+
+            8. His Name Starts with F
+
+            9. Hate Wins Over Love
+
+            10. The Fault in Our Stars
+        </pre>
+    </div>
+
+    <h5>Stella out Now</h5>
+    <div class="stella">
+        <img src="Screenshot 2025-04-27 193126.png" width="250px">
+    </div>
+
+
+    <p id="p2">STORE</p>
+<section id="store">
+  <div class="candles">
+
+    <div class="candle-item">
+      <img src="can1.jpg" alt="Planet Candle">
+      <p class="candle-desc">Light up your space with planet candles 🪐✨<br>- Price: €12!</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="candle-item">
+      <img src="can2.jpg" alt="Galaxy Candle">
+      <p class="candle-desc">Bring the galaxy to your room 🌌🕯️<br>- Price: €12!</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="candle-item">
+      <img src="can3.jpg" alt="Star Candle">
+      <p class="candle-desc">Glow like the stars with galaxy candles ✨🪐<br>– Price: €12!</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+
+   
+    <div class="candle-item">
+      <img src="perf1.jpg" alt="Rose Perfume">
+      <p class="candle-desc">Fresh rose perfume 🌹💖<br>- Price: €25!</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="candle-item">
+      <img src="perf2 (1).png" alt="Ocean Perfume">
+      <p class="candle-desc">Smell like the ocean breeze 🌊🧴<br>- Price: €30!</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="candle-item">
+      <img src="perf3.png" alt="Vanilla Perfume">
+      <p class="candle-desc">Sweet vanilla dreams ✨🍦<br>- Price: €28!</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+
+
+<p id="p9">Albums</p>
+<div class="Albums">
+    <div class="album_1">
+        <img src="a3.jpg" >
+        <p class="al-p">LAVA</p>
+    </div>
+    <div class="album_1">
+        <img src="a1.jpg">
+        <p class="al-p">CURSE</p>
+
+    </div>
+    <div class="album_1">
+        <img src="a2.jpg">
+        <p class="al-p">I don't know my birth date</p>
+    </div>
+
+
+</div>
+
+
+
+<footer class="footer">
+  <p>© 2025 Stellara All rights reserved.</p>
+</footer>
+
+
+    
+
+
+    
+
+
+
+
+</body>
+</html>
